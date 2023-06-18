@@ -1,0 +1,88 @@
+.container{
+    display: flex;
+    
+}
+.username{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    margin-left: 30px;
+}
+.navbar{
+    /* height: 100vh; */
+    width: 30vw;
+    padding-top: 20px;
+    background-color: rgb(239, 239, 239);
+    border-top-right-radius: 50px;
+    box-sizing: border-box;
+}
+.navbar div{
+    box-sizing: border-box;
+    /* padding: 50px; */
+    margin: 60px 0;
+    font-size: larger;
+    cursor: pointer;
+}
+.navbar div:hover{
+    color: rgb(118, 63, 63);
+}
+.content{
+    width: 80vw;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+.icon{
+    margin-top: 10px;
+    width: 40%;
+    
+}
+.brand{
+    /* margin-top:0vh; */
+    font-size: xxx-large;
+}
+.search{
+    border: 1px solid rgb(247, 38, 49);
+    width: 40vw;
+    height: 40px;
+    margin-left: 220px;
+    border-radius: 10px;
+    display: flex;
+}
+.search input{
+    border: 0;
+    width: 28vw;
+    margin-left: 10px;
+    font-size: large;
+}
+.search-icons{
+    cursor: pointer;
+    margin: 0 16px;
+    margin-top: 6px;
+    font-size: x-large;
+    color: rgb(247, 38, 49);
+}
+.icons{
+    margin-top: 10px;
+    color: rgb(247, 38, 49);
+    margin-left: 30px;
+}
+.searchBar{
+    border: 0;
+    font-size: large;
+    width: 30vw;
+}
+.searchoutline{
+    margin-top: 10px;
+    width: 80vw;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+}
+.bg{
+    margin-left: 30%;
+}
+.navibtn{
+    border: 0;
+    font-size: large;
+    margin-left: 20px;
+    cursor: pointer;
+}

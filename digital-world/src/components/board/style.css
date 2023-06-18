@@ -1,0 +1,27 @@
+.Board{
+    margin: 40px;
+    height: 10%;
+    padding: 12px;
+    box-sizing: border-box;
+    border: 2px solid rgb(240, 156, 169);
+    border-radius: 10px;
+    /* width: 25vw; */
+}
+.note .note-footer{
+    /* margin-top: 10%; */
+    margin-left: 40%;
+}
+.Board .note-footer small{
+    font-weight: bold;
+}
+.delete-icon{
+    margin-top: 0;
+    margin-left: 90%;
+    font-size: x-large;
+    cursor: pointer;
+    color: rgb(247, 38, 49);
+}
+.text{
+    margin-left: 30%;
+    padding: 10px;
+}
